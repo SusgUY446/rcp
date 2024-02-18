@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+
+    background-color: lightblue;
+}
+
+h1 {
+    margin-bottom: 20px; /* Add some space between header and containers */
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-bottom: 20px; /* Add some space between containers */
+    align-self: flex-start; /* Align containers to the left */
+}
